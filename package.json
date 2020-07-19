@@ -1,0 +1,15 @@
+{
+  "name": "wasm",
+  "version": "1.0.0",
+  "description": "benchmarking",
+  "main": "index.js",
+  "author": "aesher9o1",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack",
+    "start": "node ./dist/bundle.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
